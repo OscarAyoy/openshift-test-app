@@ -1,0 +1,14 @@
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - dupl
+    - goconst
+    - gocyclo
+    - golint
+    - gosec
+    - interfacer
+    - maligned
+    - stylecheck
+    - unconvert
